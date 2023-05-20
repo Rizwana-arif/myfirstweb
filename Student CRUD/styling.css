@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./backgroundimages/a_cottage.jpg);
+    background-size: cover;
+    }
+.main{
+    width: 400px;
+    margin: 20px auto 20px auto;
+    
+    }
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.register{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgb(255,255,0.5);
+    box-shadow: 2px 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+#register{
+    margin: 0px 0px 0px 40px;
+}
+label{
+    font-size: 18px;
+    font-family:sans-serif ;
+    font-style: italic;
+}
+#name{
+    width: 300px;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 9px;
+    background-color:aliceblue;
+}
+#file{
+    width: 300px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+input#sub{
+    display: block;
+    width: 90%;
+    margin-top: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(209,209,209);
+    background: rgba(56, 204,93, 0.7);
+    margin-bottom: 10px;
+    padding: 7px;
+    cursor: pointer;
+}
+#sub:hover{
+    background-color: rgba(4, 6, 129, 0.5);
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+
